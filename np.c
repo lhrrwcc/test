@@ -2,27 +2,29 @@
 #include <stdlib.h>
 
 #include "funcs.h"
-void b(void)
+void 
+b(void)
 {
     printf("muehe\n");
     a();
 }
-void c(void)
+
+void 
+c(void)
 {
     b();
     b();
 }
-void a(void)
+
+void 
+a(void)
 {
     printf("hahaahahahah\n");
     c();
 }
 
-
-
-
-
-void test(void)
+void 
+test(void)
 {
 
     printf("this is function test\n");
