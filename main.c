@@ -1,6 +1,12 @@
-#include<stdio.h>
-int main(void)
+#include "funcs.h"
+
+int
+main(int argc, char **argv)
 {
-    printf("@caca\n");
+    test();
+    a();
+    test();
+    a();
     return 0;
 }
+
